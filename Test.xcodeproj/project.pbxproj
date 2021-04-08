@@ -14,6 +14,28 @@
 		017D7373261EE3350010DDC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 017D7372261EE3350010DDC9 /* Assets.xcassets */; };
 		017D7376261EE3350010DDC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017D7374261EE3350010DDC9 /* LaunchScreen.storyboard */; };
 		017D7379261EE3350010DDC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D7378261EE3350010DDC9 /* main.m */; };
+		017D7680261EE3CE0010DDC9 /* UIViewController+LayoutHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D7645261EE3CE0010DDC9 /* UIViewController+LayoutHelper.m */; };
+		017D7681261EE3CE0010DDC9 /* UIViewController+PanModalDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D7646261EE3CE0010DDC9 /* UIViewController+PanModalDefault.m */; };
+		017D7682261EE3CE0010DDC9 /* UIViewController+Presentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D7648261EE3CE0010DDC9 /* UIViewController+Presentation.m */; };
+		017D7683261EE3CE0010DDC9 /* UIScrollView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D764D261EE3CE0010DDC9 /* UIScrollView+Helper.m */; };
+		017D7684261EE3CE0010DDC9 /* UIView+HW_Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D764F261EE3CE0010DDC9 /* UIView+HW_Frame.m */; };
+		017D7685261EE3CE0010DDC9 /* KeyValueObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D7653261EE3CE0010DDC9 /* KeyValueObserver.m */; };
+		017D7686261EE3CE0010DDC9 /* UIViewController+PanModalPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D7655261EE3CE0010DDC9 /* UIViewController+PanModalPresenter.m */; };
+		017D7687261EE3CE0010DDC9 /* HWPanModalPresentationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D7659261EE3CE0010DDC9 /* HWPanModalPresentationDelegate.m */; };
+		017D7688261EE3CE0010DDC9 /* HWPanModalInteractiveAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D765C261EE3CE0010DDC9 /* HWPanModalInteractiveAnimator.m */; };
+		017D7689261EE3CE0010DDC9 /* HWPanModalAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D765E261EE3CE0010DDC9 /* HWPanModalAnimator.m */; };
+		017D768A261EE3CE0010DDC9 /* HWPageSheetPresentingAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D7661261EE3CE0010DDC9 /* HWPageSheetPresentingAnimation.m */; };
+		017D768B261EE3CE0010DDC9 /* HWShoppingCartPresentingAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D7662261EE3CE0010DDC9 /* HWShoppingCartPresentingAnimation.m */; };
+		017D768C261EE3CE0010DDC9 /* HWPanModalPresentationAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D7666261EE3CE0010DDC9 /* HWPanModalPresentationAnimator.m */; };
+		017D768D261EE3CE0010DDC9 /* HWPanModalPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D766A261EE3CE0010DDC9 /* HWPanModalPresentationController.m */; };
+		017D768E261EE3CE0010DDC9 /* HWDimmedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D766E261EE3CE0010DDC9 /* HWDimmedView.m */; };
+		017D768F261EE3CE0010DDC9 /* HWVisualEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D7670261EE3CE0010DDC9 /* HWVisualEffectView.m */; };
+		017D7690261EE3CE0010DDC9 /* HWPanModalContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D7672261EE3CE0010DDC9 /* HWPanModalContainerView.m */; };
+		017D7691261EE3CE0010DDC9 /* HWPanModalContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D7675261EE3CE0010DDC9 /* HWPanModalContentView.m */; };
+		017D7692261EE3CE0010DDC9 /* HWPanContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D7677261EE3CE0010DDC9 /* HWPanContainerView.m */; };
+		017D7693261EE3CE0010DDC9 /* HWPanIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D7679261EE3CE0010DDC9 /* HWPanIndicatorView.m */; };
+		017D7694261EE3CE0010DDC9 /* HWBackgroundConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D767C261EE3CE0010DDC9 /* HWBackgroundConfig.m */; };
+		017D7695261EE3CE0010DDC9 /* HWPanModalPresentableHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D767E261EE3CE0010DDC9 /* HWPanModalPresentableHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +51,57 @@
 		017D7375261EE3350010DDC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		017D7377261EE3350010DDC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		017D7378261EE3350010DDC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		017D7643261EE3CE0010DDC9 /* HWPanModalPresentationUpdateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPanModalPresentationUpdateProtocol.h; sourceTree = "<group>"; };
+		017D7644261EE3CE0010DDC9 /* UIViewController+Presentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Presentation.h"; sourceTree = "<group>"; };
+		017D7645261EE3CE0010DDC9 /* UIViewController+LayoutHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LayoutHelper.m"; sourceTree = "<group>"; };
+		017D7646261EE3CE0010DDC9 /* UIViewController+PanModalDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PanModalDefault.m"; sourceTree = "<group>"; };
+		017D7647261EE3CE0010DDC9 /* HWPanModalPresentable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPanModalPresentable.h; sourceTree = "<group>"; };
+		017D7648261EE3CE0010DDC9 /* UIViewController+Presentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Presentation.m"; sourceTree = "<group>"; };
+		017D7649261EE3CE0010DDC9 /* HWPanModalHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPanModalHeight.h; sourceTree = "<group>"; };
+		017D764A261EE3CE0010DDC9 /* UIViewController+LayoutHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LayoutHelper.h"; sourceTree = "<group>"; };
+		017D764B261EE3CE0010DDC9 /* UIViewController+PanModalDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PanModalDefault.h"; sourceTree = "<group>"; };
+		017D764D261EE3CE0010DDC9 /* UIScrollView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Helper.m"; sourceTree = "<group>"; };
+		017D764E261EE3CE0010DDC9 /* UIView+HW_Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HW_Frame.h"; sourceTree = "<group>"; };
+		017D764F261EE3CE0010DDC9 /* UIView+HW_Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HW_Frame.m"; sourceTree = "<group>"; };
+		017D7650261EE3CE0010DDC9 /* UIScrollView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Helper.h"; sourceTree = "<group>"; };
+		017D7652261EE3CE0010DDC9 /* KeyValueObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyValueObserver.h; sourceTree = "<group>"; };
+		017D7653261EE3CE0010DDC9 /* KeyValueObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyValueObserver.m; sourceTree = "<group>"; };
+		017D7655261EE3CE0010DDC9 /* UIViewController+PanModalPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PanModalPresenter.m"; sourceTree = "<group>"; };
+		017D7656261EE3CE0010DDC9 /* HWPanModalPresenterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPanModalPresenterProtocol.h; sourceTree = "<group>"; };
+		017D7657261EE3CE0010DDC9 /* UIViewController+PanModalPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PanModalPresenter.h"; sourceTree = "<group>"; };
+		017D7659261EE3CE0010DDC9 /* HWPanModalPresentationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPanModalPresentationDelegate.m; sourceTree = "<group>"; };
+		017D765A261EE3CE0010DDC9 /* HWPanModalPresentationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPanModalPresentationDelegate.h; sourceTree = "<group>"; };
+		017D765C261EE3CE0010DDC9 /* HWPanModalInteractiveAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPanModalInteractiveAnimator.m; sourceTree = "<group>"; };
+		017D765D261EE3CE0010DDC9 /* HWPresentingVCAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPresentingVCAnimatedTransitioning.h; sourceTree = "<group>"; };
+		017D765E261EE3CE0010DDC9 /* HWPanModalAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPanModalAnimator.m; sourceTree = "<group>"; };
+		017D765F261EE3CE0010DDC9 /* HWPanModalPresentationAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPanModalPresentationAnimator.h; sourceTree = "<group>"; };
+		017D7661261EE3CE0010DDC9 /* HWPageSheetPresentingAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPageSheetPresentingAnimation.m; sourceTree = "<group>"; };
+		017D7662261EE3CE0010DDC9 /* HWShoppingCartPresentingAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWShoppingCartPresentingAnimation.m; sourceTree = "<group>"; };
+		017D7663261EE3CE0010DDC9 /* HWPageSheetPresentingAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPageSheetPresentingAnimation.h; sourceTree = "<group>"; };
+		017D7664261EE3CE0010DDC9 /* HWShoppingCartPresentingAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWShoppingCartPresentingAnimation.h; sourceTree = "<group>"; };
+		017D7665261EE3CE0010DDC9 /* HWPanModalInteractiveAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPanModalInteractiveAnimator.h; sourceTree = "<group>"; };
+		017D7666261EE3CE0010DDC9 /* HWPanModalPresentationAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPanModalPresentationAnimator.m; sourceTree = "<group>"; };
+		017D7667261EE3CE0010DDC9 /* HWPanModalAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPanModalAnimator.h; sourceTree = "<group>"; };
+		017D7669261EE3CE0010DDC9 /* HWPanModalPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPanModalPresentationController.h; sourceTree = "<group>"; };
+		017D766A261EE3CE0010DDC9 /* HWPanModalPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPanModalPresentationController.m; sourceTree = "<group>"; };
+		017D766B261EE3CE0010DDC9 /* HWPanModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPanModal.h; sourceTree = "<group>"; };
+		017D766D261EE3CE0010DDC9 /* HWPanIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPanIndicatorView.h; sourceTree = "<group>"; };
+		017D766E261EE3CE0010DDC9 /* HWDimmedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWDimmedView.m; sourceTree = "<group>"; };
+		017D766F261EE3CE0010DDC9 /* HWPanContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPanContainerView.h; sourceTree = "<group>"; };
+		017D7670261EE3CE0010DDC9 /* HWVisualEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWVisualEffectView.m; sourceTree = "<group>"; };
+		017D7672261EE3CE0010DDC9 /* HWPanModalContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPanModalContainerView.m; sourceTree = "<group>"; };
+		017D7673261EE3CE0010DDC9 /* HWPanModalContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPanModalContentView.h; sourceTree = "<group>"; };
+		017D7674261EE3CE0010DDC9 /* HWPanModalContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPanModalContainerView.h; sourceTree = "<group>"; };
+		017D7675261EE3CE0010DDC9 /* HWPanModalContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPanModalContentView.m; sourceTree = "<group>"; };
+		017D7676261EE3CE0010DDC9 /* HWBackgroundConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWBackgroundConfig.h; sourceTree = "<group>"; };
+		017D7677261EE3CE0010DDC9 /* HWPanContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPanContainerView.m; sourceTree = "<group>"; };
+		017D7678261EE3CE0010DDC9 /* HWDimmedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWDimmedView.h; sourceTree = "<group>"; };
+		017D7679261EE3CE0010DDC9 /* HWPanIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPanIndicatorView.m; sourceTree = "<group>"; };
+		017D767A261EE3CE0010DDC9 /* HWPanModalIndicatorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPanModalIndicatorProtocol.h; sourceTree = "<group>"; };
+		017D767B261EE3CE0010DDC9 /* HWVisualEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWVisualEffectView.h; sourceTree = "<group>"; };
+		017D767C261EE3CE0010DDC9 /* HWBackgroundConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWBackgroundConfig.m; sourceTree = "<group>"; };
+		017D767E261EE3CE0010DDC9 /* HWPanModalPresentableHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPanModalPresentableHandler.m; sourceTree = "<group>"; };
+		017D767F261EE3CE0010DDC9 /* HWPanModalPresentableHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPanModalPresentableHandler.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +141,159 @@
 				017D736C261EE3330010DDC9 /* ViewController.h */,
 				017D736D261EE3330010DDC9 /* ViewController.m */,
 				017D736F261EE3330010DDC9 /* Main.storyboard */,
+				017D7641261EE3CE0010DDC9 /* HWPanModal */,
 				017D7372261EE3350010DDC9 /* Assets.xcassets */,
 				017D7374261EE3350010DDC9 /* LaunchScreen.storyboard */,
 				017D7377261EE3350010DDC9 /* Info.plist */,
 				017D7378261EE3350010DDC9 /* main.m */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		017D7641261EE3CE0010DDC9 /* HWPanModal */ = {
+			isa = PBXGroup;
+			children = (
+				017D7642261EE3CE0010DDC9 /* Presentable */,
+				017D764C261EE3CE0010DDC9 /* Category */,
+				017D7651261EE3CE0010DDC9 /* KVO */,
+				017D7654261EE3CE0010DDC9 /* Presenter */,
+				017D7658261EE3CE0010DDC9 /* Delegate */,
+				017D765B261EE3CE0010DDC9 /* Animator */,
+				017D7668261EE3CE0010DDC9 /* Controller */,
+				017D766B261EE3CE0010DDC9 /* HWPanModal.h */,
+				017D766C261EE3CE0010DDC9 /* View */,
+				017D767D261EE3CE0010DDC9 /* Mediator */,
+			);
+			path = HWPanModal;
+			sourceTree = "<group>";
+		};
+		017D7642261EE3CE0010DDC9 /* Presentable */ = {
+			isa = PBXGroup;
+			children = (
+				017D7643261EE3CE0010DDC9 /* HWPanModalPresentationUpdateProtocol.h */,
+				017D7644261EE3CE0010DDC9 /* UIViewController+Presentation.h */,
+				017D7645261EE3CE0010DDC9 /* UIViewController+LayoutHelper.m */,
+				017D7646261EE3CE0010DDC9 /* UIViewController+PanModalDefault.m */,
+				017D7647261EE3CE0010DDC9 /* HWPanModalPresentable.h */,
+				017D7648261EE3CE0010DDC9 /* UIViewController+Presentation.m */,
+				017D7649261EE3CE0010DDC9 /* HWPanModalHeight.h */,
+				017D764A261EE3CE0010DDC9 /* UIViewController+LayoutHelper.h */,
+				017D764B261EE3CE0010DDC9 /* UIViewController+PanModalDefault.h */,
+			);
+			path = Presentable;
+			sourceTree = "<group>";
+		};
+		017D764C261EE3CE0010DDC9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				017D764D261EE3CE0010DDC9 /* UIScrollView+Helper.m */,
+				017D764E261EE3CE0010DDC9 /* UIView+HW_Frame.h */,
+				017D764F261EE3CE0010DDC9 /* UIView+HW_Frame.m */,
+				017D7650261EE3CE0010DDC9 /* UIScrollView+Helper.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		017D7651261EE3CE0010DDC9 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				017D7652261EE3CE0010DDC9 /* KeyValueObserver.h */,
+				017D7653261EE3CE0010DDC9 /* KeyValueObserver.m */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		017D7654261EE3CE0010DDC9 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				017D7655261EE3CE0010DDC9 /* UIViewController+PanModalPresenter.m */,
+				017D7656261EE3CE0010DDC9 /* HWPanModalPresenterProtocol.h */,
+				017D7657261EE3CE0010DDC9 /* UIViewController+PanModalPresenter.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		017D7658261EE3CE0010DDC9 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				017D7659261EE3CE0010DDC9 /* HWPanModalPresentationDelegate.m */,
+				017D765A261EE3CE0010DDC9 /* HWPanModalPresentationDelegate.h */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		017D765B261EE3CE0010DDC9 /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				017D765C261EE3CE0010DDC9 /* HWPanModalInteractiveAnimator.m */,
+				017D765D261EE3CE0010DDC9 /* HWPresentingVCAnimatedTransitioning.h */,
+				017D765E261EE3CE0010DDC9 /* HWPanModalAnimator.m */,
+				017D765F261EE3CE0010DDC9 /* HWPanModalPresentationAnimator.h */,
+				017D7660261EE3CE0010DDC9 /* PresentingVCAnimation */,
+				017D7665261EE3CE0010DDC9 /* HWPanModalInteractiveAnimator.h */,
+				017D7666261EE3CE0010DDC9 /* HWPanModalPresentationAnimator.m */,
+				017D7667261EE3CE0010DDC9 /* HWPanModalAnimator.h */,
+			);
+			path = Animator;
+			sourceTree = "<group>";
+		};
+		017D7660261EE3CE0010DDC9 /* PresentingVCAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				017D7661261EE3CE0010DDC9 /* HWPageSheetPresentingAnimation.m */,
+				017D7662261EE3CE0010DDC9 /* HWShoppingCartPresentingAnimation.m */,
+				017D7663261EE3CE0010DDC9 /* HWPageSheetPresentingAnimation.h */,
+				017D7664261EE3CE0010DDC9 /* HWShoppingCartPresentingAnimation.h */,
+			);
+			path = PresentingVCAnimation;
+			sourceTree = "<group>";
+		};
+		017D7668261EE3CE0010DDC9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				017D7669261EE3CE0010DDC9 /* HWPanModalPresentationController.h */,
+				017D766A261EE3CE0010DDC9 /* HWPanModalPresentationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		017D766C261EE3CE0010DDC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				017D766D261EE3CE0010DDC9 /* HWPanIndicatorView.h */,
+				017D766E261EE3CE0010DDC9 /* HWDimmedView.m */,
+				017D766F261EE3CE0010DDC9 /* HWPanContainerView.h */,
+				017D7670261EE3CE0010DDC9 /* HWVisualEffectView.m */,
+				017D7671261EE3CE0010DDC9 /* PanModal */,
+				017D7676261EE3CE0010DDC9 /* HWBackgroundConfig.h */,
+				017D7677261EE3CE0010DDC9 /* HWPanContainerView.m */,
+				017D7678261EE3CE0010DDC9 /* HWDimmedView.h */,
+				017D7679261EE3CE0010DDC9 /* HWPanIndicatorView.m */,
+				017D767A261EE3CE0010DDC9 /* HWPanModalIndicatorProtocol.h */,
+				017D767B261EE3CE0010DDC9 /* HWVisualEffectView.h */,
+				017D767C261EE3CE0010DDC9 /* HWBackgroundConfig.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		017D7671261EE3CE0010DDC9 /* PanModal */ = {
+			isa = PBXGroup;
+			children = (
+				017D7672261EE3CE0010DDC9 /* HWPanModalContainerView.m */,
+				017D7673261EE3CE0010DDC9 /* HWPanModalContentView.h */,
+				017D7674261EE3CE0010DDC9 /* HWPanModalContainerView.h */,
+				017D7675261EE3CE0010DDC9 /* HWPanModalContentView.m */,
+			);
+			path = PanModal;
+			sourceTree = "<group>";
+		};
+		017D767D261EE3CE0010DDC9 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				017D767E261EE3CE0010DDC9 /* HWPanModalPresentableHandler.m */,
+				017D767F261EE3CE0010DDC9 /* HWPanModalPresentableHandler.h */,
+			);
+			path = Mediator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +365,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017D768A261EE3CE0010DDC9 /* HWPageSheetPresentingAnimation.m in Sources */,
+				017D7681261EE3CE0010DDC9 /* UIViewController+PanModalDefault.m in Sources */,
+				017D7689261EE3CE0010DDC9 /* HWPanModalAnimator.m in Sources */,
+				017D7684261EE3CE0010DDC9 /* UIView+HW_Frame.m in Sources */,
+				017D7690261EE3CE0010DDC9 /* HWPanModalContainerView.m in Sources */,
+				017D7695261EE3CE0010DDC9 /* HWPanModalPresentableHandler.m in Sources */,
+				017D7687261EE3CE0010DDC9 /* HWPanModalPresentationDelegate.m in Sources */,
+				017D7682261EE3CE0010DDC9 /* UIViewController+Presentation.m in Sources */,
+				017D768D261EE3CE0010DDC9 /* HWPanModalPresentationController.m in Sources */,
 				017D736E261EE3330010DDC9 /* ViewController.m in Sources */,
+				017D7688261EE3CE0010DDC9 /* HWPanModalInteractiveAnimator.m in Sources */,
+				017D768C261EE3CE0010DDC9 /* HWPanModalPresentationAnimator.m in Sources */,
+				017D768E261EE3CE0010DDC9 /* HWDimmedView.m in Sources */,
+				017D7683261EE3CE0010DDC9 /* UIScrollView+Helper.m in Sources */,
+				017D7694261EE3CE0010DDC9 /* HWBackgroundConfig.m in Sources */,
+				017D7686261EE3CE0010DDC9 /* UIViewController+PanModalPresenter.m in Sources */,
+				017D7685261EE3CE0010DDC9 /* KeyValueObserver.m in Sources */,
+				017D7680261EE3CE0010DDC9 /* UIViewController+LayoutHelper.m in Sources */,
 				017D7368261EE3330010DDC9 /* AppDelegate.m in Sources */,
 				017D7379261EE3350010DDC9 /* main.m in Sources */,
+				017D768B261EE3CE0010DDC9 /* HWShoppingCartPresentingAnimation.m in Sources */,
+				017D7691261EE3CE0010DDC9 /* HWPanModalContentView.m in Sources */,
+				017D768F261EE3CE0010DDC9 /* HWVisualEffectView.m in Sources */,
+				017D7693261EE3CE0010DDC9 /* HWPanIndicatorView.m in Sources */,
+				017D7692261EE3CE0010DDC9 /* HWPanContainerView.m in Sources */,
 				017D736B261EE3330010DDC9 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
